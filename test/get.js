@@ -13,9 +13,9 @@ describe('Test GET API Register Employess', () => {
         .end((err, res) => {
           assert.isNull(err);
           assert.equal(res.status, 200)
-          assert.equal(res.body.name, 'TesterPortoMeetup')
-          assert.equal(res.body.nif, 999888777)
-          assert.equal(res.body.address, 'MTP')
+          assert.equal(res.body[0].name, 'TesterPortoMeetup')
+          assert.equal(res.body[0].nif, 999888777)
+          assert.equal(res.body[0].address, 'MTP')
           done()
         })
     });
