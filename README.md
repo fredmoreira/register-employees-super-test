@@ -13,3 +13,8 @@ API Example on test - https://github.com/fredmoreira/register-employees
 #### Setup
 * git clone https://github.com/fredmoreira/register-employees-super-test
 * npm install
+
+#### Run
+
+* npm test (in root directory)
+* mocha -R spec file
