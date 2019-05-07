@@ -1,0 +1,24 @@
+{
+  "name": "register-employees-super-test",
+  "version": "1.0.0",
+  "description": "Demo with super test for API Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fredmoreira/register-employees-super-test.git"
+  },
+  "keywords": [
+    "API",
+    "Test",
+    "Testing"
+  ],
+  "author": "Frederico Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredmoreira/register-employees-super-test/issues"
+  },
+  "homepage": "https://github.com/fredmoreira/register-employees-super-test#readme"
+}
